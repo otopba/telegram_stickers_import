@@ -188,13 +188,13 @@ class _MyAppState extends State<MyApp> {
       ),
     ];
 
-    final set = StickerSet(
+    final stickerSet = StickerSet(
       software: "My app",
       isAnimated: true,
       stickers: stickers,
     );
 
-    await TelegramStickersImport.import(set);
+    await TelegramStickersImport.import(stickerSet);
   }
 
   Future<void> _copyAssets() async {

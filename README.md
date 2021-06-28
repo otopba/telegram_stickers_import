@@ -30,15 +30,15 @@ Configure your `Info.plist` by right-clicking it in Project Navigator, choosing 
  
 ### Usage
 
-To import a sticker set of a single sticker to Telegram, create a new set and import it like this:  
+To import a sticker set to Telegram, create a new set and import it like this:  
 ```dart
-final set = StickerSet(
+final stickerSet = StickerSet(
     software: "My app",
     isAnimated: true,
     stickers: stickers,
 );
 
-TelegramStickersImport.import(set);
+TelegramStickersImport.import(stickerSet);
 ```
 
 #### Android
