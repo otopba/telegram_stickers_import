@@ -1,4 +1,6 @@
 # TelegramStickersImport — Telegram stickers importing Flutter plugin for iOS and Android
+
+[![pub package](https://img.shields.io/pub/v/telegram_stickers_import.svg)](https://pub.dev/packages/telegram_stickers_import)
  
 TelegramStickersImport helps your users import third-party programmatically created sticker sets into Telegram Messenger for iOS and Android.
 
