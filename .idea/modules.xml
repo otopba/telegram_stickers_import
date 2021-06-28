@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/telegram_stickers_import.iml" filepath="$PROJECT_DIR$/telegram_stickers_import.iml" />
+      <module fileurl="file://$PROJECT_DIR$/android/telegram_stickers_import_android.iml" filepath="$PROJECT_DIR$/android/telegram_stickers_import_android.iml" />
+      <module fileurl="file://$PROJECT_DIR$/example/android/telegram_stickers_import_example_android.iml" filepath="$PROJECT_DIR$/example/android/telegram_stickers_import_example_android.iml" />
+    </modules>
+  </component>
+</project>
