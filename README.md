@@ -30,7 +30,7 @@ Configure your `Info.plist` by right-clicking it in Project Navigator, choosing 
  
 ### Usage
 
-To import a sticker set to Telegram, create a new set and import it like this:  
+To import a sticker set into Telegram, create a new sticker set and import it as follows:  
 ```dart
 final stickerSet = StickerSet(
     software: "My app",
@@ -51,7 +51,7 @@ You can get the path to the cache folder by calling `getTemporaryDirectory()` me
 
 All the necessary settings for this folder have already been made by the plugin, and the Telegram will be able to receive your stickers without any problems.
   
-In case you want to use other paths, be sure to check out how to share files between applications correctly: https://developer.android.com/training/secure-file-sharing/setup-sharing
+In case if you want to use other paths, be sure to check out how to share files between applications correctly: https://developer.android.com/training/secure-file-sharing/setup-sharing
 
 #### iOS
 

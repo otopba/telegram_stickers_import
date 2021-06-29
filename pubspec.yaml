@@ -1,6 +1,6 @@
 name: telegram_stickers_import
 description: Telegram stickers importing Flutter plugin for iOS and Android
-version: 1.0.0
+version: 1.0.1
 homepage: https://github.com/otopba/telegram_stickers_import
 
 environment:

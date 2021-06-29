@@ -19,7 +19,7 @@ import 'package:telegram_stickers_import/sticker_set.dart';
 /// plugin, and the Telegram will be able to receive your stickers without any
 /// problems.
 ///
-/// In case you want to use other paths, be sure to check out how to share
+/// In case if you want to use other paths, be sure to check out how to share
 /// files between applications correctly:
 /// https://developer.android.com/training/secure-file-sharing/setup-sharing
 ///
