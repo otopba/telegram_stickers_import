@@ -17,7 +17,7 @@ A new flutter plugin project.
   s.dependency 'Flutter'
   s.platform = :ios, '8.0'
 #this is comment
-  s.dependency 'TelegramStickersImport', :git => 'https://github.com/TelegramMessenger/TelegramStickersImport/tree/1.0.1.git', :tag => '1.0.1'
+  s.dependency 'TelegramStickersImport', :git => 'https://github.com/RezaHeidary/TelegramStickersImport'
 
   # Flutter.framework does not contain a i386 slice.
   s.pod_target_xcconfig = { 'DEFINES_MODULE' => 'YES', 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'i386' }
