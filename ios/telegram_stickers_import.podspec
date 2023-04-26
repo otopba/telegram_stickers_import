@@ -16,7 +16,7 @@ A new flutter plugin project.
   s.source_files = 'Classes/**/*'
   s.dependency 'Flutter'
   s.platform = :ios, '8.0'
-
+#this is comment
   s.dependency 'TelegramStickersImport', :git => 'https://github.com/TelegramMessenger/TelegramStickersImport/tree/1.0.1.git', :tag => '1.0.1'
 
   # Flutter.framework does not contain a i386 slice.
