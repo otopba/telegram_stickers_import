@@ -22,6 +22,8 @@ class TelegramStickersImportPlugin : FlutterPlugin, MethodCallHandler, ActivityA
 
     override fun onAttachedToEngine(flutterPluginBinding: FlutterPlugin.FlutterPluginBinding) {
         binaryMessenger = flutterPluginBinding.binaryMessenger
+        channel = MethodChannel(flutterPluginBinding.binaryMessenger, "telegram_stickers_import")
+        channel?.setMethodCallHandler(this)
     }
 
     override fun onDetachedFromEngine(binding: FlutterPlugin.FlutterPluginBinding) {
@@ -32,8 +34,8 @@ class TelegramStickersImportPlugin : FlutterPlugin, MethodCallHandler, ActivityA
         if (binaryMessenger == null) return
 
         activity = binding.activity as FlutterActivity
-        channel = MethodChannel(binaryMessenger, "telegram_stickers_import")
-        channel?.setMethodCallHandler(this)
+//         channel = MethodChannel(binaryMessenger, "telegram_stickers_import")
+//         channel?.setMethodCallHandler(this)
     }
 
     override fun onDetachedFromActivityForConfigChanges() {
